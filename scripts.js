@@ -12,12 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     "July", "August", "September", "October", "November", "December"];
 
     const people = [
-        { name: "Đô", color: "#C70039" },   // Đỏ tối
-        { name: "Toàn", color: "#44CD00" }, // Xanh lá cây tối
-        { name: "Song", color: "#3F00FF" }, // Xanh dương tối
-        { name: "Trung", color: "#FFD700" },// Vàng kim
-        { name: "Long", color: "#FF5733" }, // Hồng tối
-        { name: "Nhật", color: "#17A2B8" }  // Xanh ngọc tối
+        { name: "Trung", color: "#C70039" },   // Đỏ tối
+        { name: "Long", color: "#44CD00" }, // Xanh lá cây tối
+        { name: "Bảo", color: "#3F00FF" }, // Xanh dương tối
+        { name: "Đức", color: "#FFD700" },// Vàng kim
+        { name: "Giang", color: "#FF5733" }, // Hồng tối
     ];
 
     function getDayOfYear(year, month, day) {
